@@ -12,3 +12,10 @@ https://github.com/dog-qiuqiu/MobileNet-Yolo
 python3 darknet_detect_live.py # ----> 打开 jetson nano 的摄像头实时检测
 
 
+模型只有 500k 确实加载和运行比较快。
+实测　640x360 实时检测 30fps以上
+识别框不是很稳定 
+
+
+libdarknet.so 请下载  https://github.com/dog-qiuqiu/MobileNet-Yolo 之后  make一下
+
