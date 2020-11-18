@@ -7,3 +7,8 @@ https://github.com/dog-qiuqiu/MobileNet-Yolo
 这个代码的目标是练习 darknet 框架在 jetson nano 下 通过 python 调用， 并证明大神的牛批之处 ！
 
 
+执行:
+#前提是你安装好了 cuda , pytorch 等
+python3 darknet_detect_live.py # ----> 打开 jetson nano 的摄像头实时检测
+
+
